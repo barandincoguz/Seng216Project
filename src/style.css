@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Jost", sans-serif;
+  background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+}
+.container {
+  width: 350px;
+  height: 500px;
+  background: red;
+  overflow: hidden;
+  background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38")
+    no-repeat center/ cover;
+  border-radius: 10px;
+  box-shadow: 5px 20px 50px #000;
+}
+form {
+  margin: 0 2rem;
+}
+.form-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 1.3rem;
+  margin-bottom: 0.4rem;
+  color: #acace0;
+}
+input {
+  color: whitesmoke;
+  width: 100%;
+  background-color: inherit;
+  border: none;
+  border-bottom: 1px solid #757575;
+  padding-left: 1.5rem;
+  font-size: 15px;
+}
+.input-group {
+  padding: 1% 0;
+  position: relative;
+}
+.input-group i {
+  position: absolute;
+  color: #f5f5f5;
+}
+input:focus {
+  background-color: transparent;
+  outline: transparent;
+  border-bottom: 2px solid rgb(237, 222, 230);
+}
+input::placeholder {
+  color: bisque;
+}
+label {
+  color: #757575;
+  position: relative;
+  left: 1.2em;
+  top: -1.3em;
+  cursor: auto;
+  transition: 0.3s ease all;
+}
+input:focus ~ label,
+input:not(:placeholder-shown) ~ label {
+  top: -3em;
+  color: rgb(237, 222, 230);
+  font-size: 15px;
+}
+.recover {
+  text-align: right;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.recover a {
+  text-decoration: none;
+  color: rgb(125, 125, 235);
+}
+.recover a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+.btn {
+  font-size: 1.1rem;
+  padding: 8px 0;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  width: 100%;
+  background: rgb(125, 125, 235);
+  color: white;
+  cursor: pointer;
+  transition: 0.9s;
+}
+.btn:hover {
+  background: #07001f;
+}
+.or {
+  font-size: 1.1rem;
+  margin: 1rem 0;
+  text-align: center;
+  color: antiquewhite;
+}
+.or::after .icons {
+  text-align: center;
+}
+.icons i {
+  color: rgb(205, 205, 205);
+  padding: 0.8rem 1.5rem;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border: 2px solid #dfe9f5;
+  margin: 0 15px;
+  transition: 1s;
+}
+.icons i:hover {
+  background: #07001f;
+  font-size: 1.6rem;
+  border: 2px solid rgb(125, 125, 235);
+}
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.links {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 4rem;
+  margin-top: 0.9rem;
+  font-weight: bold;
+  color: #dfe9f5;
+}
+button {
+  color: #acace0;
+  border: none;
+  background-color: transparent;
+  font-size: 1rem;
+  font-weight: bold;
+}
+button:hover {
+  text-decoration: underline;
+  color: blue;
+}
