@@ -60,7 +60,7 @@
               <label for="password">Password</label>
           </div>
           <p class="recover">
-            <a href="#">Recover Password</a>
+            <a href="recover.php">Recover Password</a>
           </p>
          <input type="submit" class="btn" value="Sign In" name="signIn">
         </form>
