@@ -7,6 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Get the entered email and new password from the form
     $email = $_POST['email'];
     $newPassword = $_POST['newpassword'];
+    $newPassword=md5($newPassword);
 
     // Prepare SQL statement to check if the email exists
     $sql = "SELECT * FROM users WHERE email = :email";
@@ -29,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $updateStmt->bindParam(':email', $email, PDO::PARAM_STR);
         $updateStmt->execute();
         header("Location: index.php");
-    exit; // Ensure script execution stops after redirection
+        exit(); // Ensure script execution stops after redirection
 
     } else {
         // Email does not exist in the database
