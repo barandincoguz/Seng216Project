@@ -105,9 +105,6 @@ body {
             <a class="nav-link mx-2" href="Contact.php">Contact <i class="m-lg-1 fa-regular fa-paper-plane "></i></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mx-2" href="AddNotes.php">Add Notes <i class=" m-lg-1 fa-regular fa-clipboard"></i></a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link mx-2 " href="logout.php">Log Out <i class=" m-lg-1 fa-solid fa-arrow-right-from-bracket"></i></a>
           </li>
         </ul>
